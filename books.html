@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="./books.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <title>library</title>
+
+    <style>
+      th{
+        text-align: center;
+      }
+    </style>
 </head>
 <body>
     <!--nav start-->
@@ -28,17 +34,15 @@
     <div class="container">
         <div id="main" class="card card-body">
          <form class="form-inline mb-3">
-            <h2 class="title">Add Books</h2>
+            <h2 class="title">LIST OF BOOKS :</h2>
             <button type="button" id="btn">ajouter</button>
          </form>
-         <table style="border: 1;" id="table">
+         <table id="table">
              <tr>
-               <th>name</th>
-               <th>prix</th>
+               <th>Title</th>
+               <th>Author</th>
                <th>image</th>
-               <th>quatité au stock</th>
-               <th>date de publication</th>
-               <th>date d'achat</th>
+               <th>published at</th>
                <th>action</th>
              </tr>
              
